@@ -4,7 +4,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decorate: none;
@@ -13,7 +13,7 @@ li a {
 a {
   display: block;
   padding: 8px;
-  background-color: #808080;
+  background-color: #999;
 }
 
 li a:hover {
@@ -33,9 +33,7 @@ ul {
 
 h1 {
   color: #111;
-  margin-left: 10px;
-  font-family: Gill Sans / Gill Sans MT, sans-serif;
-  font-size: 3em;
+  text-align: center;
 }
 
 h2 {
@@ -45,7 +43,7 @@ h2 {
 
 h3 {
   color: black;
-  text-align: center;
+  margin-left: 10px;
 }
 
 .wrapper {
@@ -59,8 +57,8 @@ h3 {
 }
 
 body,html {
-  padding: 0;
-  margin: 0;
+  padding: 20;
+  margin: 20;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -68,7 +66,7 @@ body,html {
   position: relative;
   width: 100%;
   font-size: 18px;
-  background-color: hsl(281, 61%, 85%);
+  text-align: center;
 }
 
 .image {
@@ -98,10 +96,10 @@ img.resize {
 }
 
 p {
-  text-align: left;
+  text-align: center;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right:15px;
+  padding-left: 10px;
+  padding-right:10px;
 }
 
 .column {
@@ -124,31 +122,13 @@ pre {
   background-color: #3c53ff;
   bottom: 0;
   position: fixed;
-  width: 100%;
+  width: 10%;
 }
 
-input {
-  margin-left: 15px;
-  width: 75%;
-}
-
-textarea {
-  margin-left: 15px;
-  height: 40px;
-  width: 85%;
-}
-
-button {
-  margin-left: 15px;
-}
-
-.flex-container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-figcaption {
+form {
   text-align: center;
-  font-style: italic;
+}
+
+.itemlist {
+  background-color: white;
 }
